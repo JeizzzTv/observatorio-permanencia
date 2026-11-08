@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Observatorio de Permanencia · Universidad Andina</title>
+<meta name="description" content="Observatorio de Permanencia de la Universidad Andina del Norte: ETL, modelo dimensional, arquitectura y tablero de la cohorte 2025-1.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --verde:#054A36; --verde-2:#0F6E5E; --tinta:#1E2A25; --suave:#5A6762; --linea:#DCE3E0;
+  --fondo:#F6F8F7; --papel:#FFFFFF; --acento:#E7F1EC;
+  --ok:#1F8A4C; --warn:#D9A21B; --bad:#C2372B;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Lato,system-ui,Arial,sans-serif;color:var(--tinta);background:var(--fondo);line-height:1.55;font-size:16px}
+a{color:var(--verde-2)}
+code{font-family:ui-monospace,Consolas,monospace;font-size:.86em;background:#EEF2F0;padding:1px 5px;border-radius:4px}
+header.hero{background:var(--verde);color:#fff;padding:48px 16px 40px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+.hero .wrap{padding:0}
+.hero small{letter-spacing:.12em;text-transform:uppercase;opacity:.8;font-weight:700;font-size:12px}
+.hero h1{font-size:clamp(28px,4.4vw,44px);line-height:1.1;margin:10px 0 12px;font-weight:900}
+.hero p{max-width:760px;margin:0;opacity:.92;font-size:17px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-top:28px}
+.kpi{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:12px 14px}
+.kpi b{display:block;font-size:26px;font-weight:900;font-variant-numeric:tabular-nums}
+.kpi span{font-size:13px;opacity:.85}
+nav{position:sticky;top:0;z-index:5;background:var(--papel);border-bottom:1px solid var(--linea)}
+nav .wrap{display:flex;gap:4px;overflow-x:auto;padding-top:8px;padding-bottom:8px}
+nav a{flex:none;text-decoration:none;color:var(--tinta);font-weight:700;font-size:14px;padding:7px 12px;border-radius:999px}
+nav a:hover{background:var(--acento);color:var(--verde)}
+main{padding:28px 0 60px}
+section{background:var(--papel);border:1px solid var(--linea);border-radius:14px;margin:0 0 26px;overflow:hidden;scroll-margin-top:64px}
+section>.cab{background:var(--verde);color:#fff;padding:16px 22px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+section>.cab .n{font-size:13px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;opacity:.75}
+section>.cab h2{margin:0;font-size:22px;font-weight:900}
+.cuerpo{padding:22px}
+h3{font-size:17px;margin:26px 0 8px;color:var(--verde)}
+h3:first-child{margin-top:0}
+p{margin:0 0 12px}
+.aprueba{background:var(--acento);border-left:4px solid var(--verde);border-radius:8px;padding:12px 16px;margin:0 0 18px;font-size:15px}
+.aprueba strong:first-child{color:var(--verde)}
+.tw{overflow-x:auto;border:1px solid var(--linea);border-radius:10px;margin:8px 0 14px}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:14px}
+th,td{padding:8px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--linea)}
+th{background:#F0F4F2;font-weight:900;font-size:13px;white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.tot td{font-weight:900;background:#F7FAF8}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:760px){.grid2{grid-template-columns:1fr}.cuerpo{padding:16px}}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--verde);color:#fff;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:9px;margin:4px 8px 4px 0;font-size:15px}
+.btn.sec{background:#fff;color:var(--verde);border:1.5px solid var(--verde)}
+figure{margin:10px 0 16px}
+figure img{width:100%;height:auto;border:1px solid var(--linea);border-radius:10px;background:#fff;display:block}
+figcaption{font-size:13px;color:var(--suave);margin-top:6px}
+.pill{display:inline-block;font-size:12px;font-weight:700;padding:2px 9px;border-radius:999px;background:#EEF2F0;margin:2px 4px 2px 0}
+.pill.no{background:#FBEAE8;color:#8F2219}
+.lista{margin:0 0 12px;padding-left:20px}
+.lista li{margin:4px 0}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:7px;vertical-align:0}
+.dot.v{background:var(--ok)}.dot.a{background:var(--warn)}.dot.r{background:var(--bad)}
+.tablero{position:relative;width:100%;aspect-ratio:4/3;max-height:1000px;border:1px solid var(--linea);border-radius:12px;overflow:hidden;background:#fff}
+.tablero iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.semaforo{display:grid;grid-template-columns:repeat(auto-fit,minmax(138px,1fr));gap:10px;margin:8px 0 16px}
+.sm{border:1px solid var(--linea);border-radius:10px;padding:12px;border-top:5px solid var(--warn)}
+.sm.v{border-top-color:var(--ok)}.sm.r{border-top-color:var(--bad)}
+.sm span{font-size:12.5px;color:var(--suave);display:block}
+.sm b{font-size:24px;font-weight:900;font-variant-numeric:tabular-nums;display:block;margin:2px 0}
+.nota{font-size:13.5px;color:var(--suave)}
+.refs p{padding-left:2em;text-indent:-2em;margin:0 0 10px}
+footer{text-align:center;color:var(--suave);font-size:13px;padding:0 16px 40px}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <small>Inteligencia de Negocios · Actividad 2</small>
+    <h1>Observatorio de Permanencia<br>Universidad Andina del Norte</h1>
+    <p>Data Warehouse, Data Lake, alertas casi en tiempo real y BI de autoservicio sobre la cohorte 2025-1
+      (datos <em>Datos_Universidad_Andina.zip</em>, institución ficticia).</p>
+    <div class="kpis">
+      <div class="kpi"><b>1.450</b><span>admitidos únicos</span></div>
+      <div class="kpi"><b>1.200</b><span>estudiantes en la cohorte</span></div>
+      <div class="kpi"><b>82,8 %</b><span>absorción</span></div>
+      <div class="kpi"><b>85,4 %</b><span>retención 2025-2</span></div>
+      <div class="kpi"><b>14,6 %</b><span>deserción</span></div>
+      <div class="kpi"><b>370</b><span>estudiantes alertados</span></div>
+    </div>
+  </div>
+</header>
+
+<nav><div class="wrap">
+  <a href="#reto1">1 · ETL</a><a href="#reto2">2 · Modelo dimensional</a>
+  <a href="#reto3">3 · Arquitectura</a><a href="#reto4">4 · Tablero</a><a href="#referencias">Referencias</a>
+</div></nav>
+
+<main class="wrap">
+
+<!-- ============================== RETO 1 ============================== -->
+<section id="reto1">
+  <div class="cab"><span class="n">Reto 1</span><h2>Construcción del ETL</h2></div>
+  <div class="cuerpo">
+    <div class="aprueba"><strong>Se aprueba si:</strong> el proceso se puede volver a ejecutar sobre los CSV originales y produce
+      <strong>1.200 estudiantes</strong> en la cohorte. → Resultado: <strong>1.200 filas × 22 columnas</strong>.</div>
+
+    <h3>Proceso repetible</h3>
+    <p>El ETL está construido en <strong>Power Query</strong> (8 consultas encadenadas, parametrizadas con la ruta de la carpeta
+      de datos). Se vuelve a ejecutar con <em>Inicio → Actualizar</em> sobre los cinco CSV originales: nada se edita a mano.
+      La consulta final valida automáticamente que la cohorte tenga 1.200 filas, que el documento sea único, que haya 22 columnas
+      y que no existan claves ambiguas de Bienestar; si algo falla, la actualización se detiene con un error.
+      Un espejo en Python (<code>verificar_etl.py</code>) aplica las mismas reglas y produce el mismo archivo (hash idéntico en dos ejecuciones).</p>
+    <p>Para Bienestar se cruza por <strong>nombre normalizado + programa</strong> (minúsculas, sin tildes, espacios colapsados),
+      lo que resuelve los homónimos: 276 registros → 240 estudiantes, 0 claves ambiguas.</p>
+
+    <h3>Registro de transformaciones (18 reglas)</h3>
+    <div class="tw"><table class=""><thead><tr><th class=num>#</th><th>Problema</th><th>Regla</th><th>Etapa</th></tr></thead><tbody><tr><td class=num>1</td><td><code>erp_pagos_2025_2.csv</code>: documento con separadores de miles (<code>1.017.055.478</code>)</td><td>Quitar los puntos y dejar el documento como texto de dígitos (1.132 filas corregidas)</td><td>Limpieza ERP</td></tr><tr><td class=num>2</td><td><code>estado_pago</code> con mayúsculas inconsistentes (<code>PAGADO</code>, <code>PENDIENTE</code>, <code>ANULADO</code>)</td><td>Normalizar a formato título: <code>Pagado</code>, <code>Pendiente</code>, <code>Anulado</code></td><td>Limpieza ERP</td></tr><tr><td class=num>3</td><td><code>fecha_admision</code> en tres formatos (775 <code>dd/mm/aaaa</code>, 296 <code>dd-mmm-aaaa</code>, 409 <code>aaaa-mm-dd</code>)</td><td>Detectar el formato y emitir ISO <code>aaaa-mm-dd</code></td><td>Limpieza admisiones</td></tr><tr><td class=num>4</td><td>30 documentos duplicados en admisiones (1.480 → 1.450 admitidos únicos)</td><td>Deduplicar por <code>documento</code> conservando el primer registro</td><td>Limpieza admisiones</td></tr><tr><td class=num>5</td><td>7 registros con periodo mal digitado <code>2025-II</code></td><td>Mapear <code>2025-II</code> → <code>2025-2</code></td><td>Limpieza matrículas</td></tr><tr><td class=num>6</td><td>12 matrículas duplicadas de la cohorte (mismo documento, 1.212 registros)</td><td>Deduplicar por <code>documento</code> dentro de la cohorte</td><td>Conformación de cohorte</td></tr><tr><td class=num>7</td><td>La cohorte oficial es solo <code>periodo = 2025-1</code> y <code>tipo_ingreso = Nuevo</code></td><td>Filtrar antes de deduplicar; resultado obligatorio: <strong>1.200 filas</strong> (validado con error automático si no cuadra)</td><td>Conformación de cohorte</td></tr><tr><td class=num>8</td><td>Programa abreviado en Bienestar (<code>Psico.</code>, <code>T. Social</code>, <code>Ing. Inf.</code>…)</td><td>Diccionario de equivalencias al nombre oficial</td><td>Limpieza Bienestar</td></tr><tr><td class=num>9</td><td>Homónimos en Bienestar (mismo nombre, distinto programa)</td><td>Cruzar por <code>nombre normalizado + programa</code>; verificado: 0 claves ambiguas, los 276 registros cruzan y quedan 240 estudiantes únicos</td><td>Integración Bienestar</td></tr><tr><td class=num>10</td><td><code>nota_parcial_0_100</code> viene en escala 0–100 y solo en semanas 4, 8, 12, 16</td><td>Agregar por estudiante y convertir a escala 0–5 (nota ÷ 20); calcular <code>nota_prom_s4_s8_0a5</code>, <code>accesos_s7_s8</code> y <code>accesos_totales</code></td><td>Transformación Moodle</td></tr><tr><td class=num>11</td><td>Nombres con diferencias de tildes, mayúsculas y espacios entre sistemas</td><td><code>fnNormalizarNombre</code>: minúsculas, sin tildes, espacios colapsados (llave de cruce)</td><td>Integración</td></tr><tr><td class=num>12</td><td><code>promedio_periodo</code> vacío en 2025-2 (semestre sin cerrar) y en 25 estudiantes de la cohorte en 2025-1 (vacío real en la fuente, sin otra fila con dato)</td><td>Vacío esperado: <strong>no se imputa</strong> en ningún caso; la tabla final usa solo datos de 2025-1 + flag <code>matriculado_2025_2</code></td><td>Validación</td></tr><tr><td class=num>13</td><td>Programa con variantes de digitación en matrículas (<code>ADMON EMPRESAS</code>, <code>PSICOLOGIA</code>, <code>ING. INFORMATICA</code>…, 139 registros)</td><td>Diccionario de equivalencias al nombre oficial del programa</td><td>Limpieza matrículas</td></tr><tr><td class=num>14</td><td>La columna <code>observacion</code> de Bienestar es dato sensible ("Reservado")</td><td>No se lleva a la tabla final; solo se conservan conteos por tipo de registro</td><td>Integración Bienestar</td></tr><tr><td class=num>15</td><td>2 correos institucionales asignados a homónimos distintos (4 estudiantes: dos Manuel Osorio y dos Melissa Giraldo)</td><td>Marcar <code>correo_compartido = TRUE</code>; sus métricas de Moodle son compartidas y el tablero debe tratarlas con cautela</td><td>Integración Moodle</td></tr><tr><td class=num>16</td><td><code>promedio_periodo</code> (escala oficial 0,0–5,0) con dos defectos: 40 valores con decimal en coma (<code>3,7</code> — con cultura en-US la coma se tomaría como miles y daría 37) y 13 valores sin separador decimal, multiplicados por 10 (<code>24</code> = 2,4)</td><td>Coma → punto antes de convertir a número; todo valor fuera de la escala 0–5 se divide entre 10. Verificado: rango final 1,6–5,0</td><td>Limpieza matrículas</td></tr><tr><td class=num>17</td><td>5 matrículas duplicadas de estudiantes de la cohorte en 2025-2 (1.030 registros)</td><td>Deduplicar el hecho por <code>documento + periodo</code>: 1.030 registros → <strong>1.025 filas</strong>; la clave del hecho queda única (validado con error automático si no cuadra)</td><td>Modelo dimensional (Reto 2)</td></tr><tr><td class=num>18</td><td>29 documentos del SIS con puntos de miles (<code>1.000.902.633</code>), todos en continuidad 2025-2, no coinciden con la llave sin puntos</td><td>Quitar puntos y espacios exteriores, conservar tipo texto y aplicar a todos los periodos antes de deduplicar y cruzar; recupera 29 retenidos que se clasificaban como desertores</td><td>Limpieza matrículas</td></tr></tbody></table></div>
+
+    <h3>Cobertura de los cruces sobre la cohorte</h3>
+    <div class="tw"><table class=""><thead><tr><th>Fuente</th><th>Llave</th><th>Estudiantes cruzados</th></tr></thead><tbody><tr><td>Admisiones</td><td><code>documento</code></td><td>1.200 (100 %)</td></tr><tr><td>Moodle agregado</td><td><code>correo_institucional</code></td><td>1.200 (100 %; 4 con correo compartido, regla 15)</td></tr><tr><td>ERP pagos 2025-2</td><td><code>documento</code></td><td>1.132 (los 68 sin liquidación son esperados: no renovaron)</td></tr><tr><td>Matrícula 2025-2</td><td><code>documento</code></td><td>1.025 (retención corregida 85,4 %)</td></tr><tr><td>Bienestar</td><td><code>nombre + programa</code></td><td>240 (20 %)</td></tr></tbody></table></div>
+
+    <h3>Descargar la tabla limpia de la cohorte</h3>
+    <a class="btn" href="datos/cohorte_2025_1_limpia.csv" download>⬇ cohorte_2025_1_limpia.csv</a>
+    <a class="btn sec" href="datos/cohorte_2025_1_limpia_excel.csv" download>⬇ Versión para Excel en español</a>
+    <p class="nota">La primera usa punto decimal (estándar CSV). La versión para Excel usa <code>;</code> como separador y coma decimal,
+      para que valores como 3.7 no se lean como 37 en un equipo configurado en español.</p>
+  </div>
+</section>
+
+<!-- ============================== RETO 2 ============================== -->
+<section id="reto2">
+  <div class="cab"><span class="n">Reto 2</span><h2>Modelo dimensional</h2></div>
+  <div class="cuerpo">
+    <div class="aprueba"><strong>Se aprueba si:</strong> la granularidad es “una fila por estudiante por periodo” y las relaciones
+      permiten filtrar por programa, facultad y estrato.</div>
+
+    <h3>Granularidad</h3>
+    <p style="font-size:18px"><strong>La tabla de hechos <code>HechoEstudiantePeriodo</code> tiene una fila por estudiante de la cohorte 2025-1 por periodo matriculado</strong>
+      (clave única <code>documento + periodo</code>: 1.200 filas en 2025-1 + 1.025 en 2025-2 = 2.225).</p>
+
+    <div class="grid2">
+      <div>
+        <h3>Tabla de hechos y medidas</h3>
+        <p><strong>Aditivas</strong> (se pueden sumar):</p>
+        <p><span class="pill">Créditos matriculados</span><span class="pill">Valor liquidado</span><span class="pill">Accesos totales Moodle</span>
+          <span class="pill">Registros de Bienestar</span><span class="pill">Estudiantes cohorte</span><span class="pill">Retenidos</span>
+          <span class="pill">Desertores</span><span class="pill">Alertados</span></p>
+        <p><strong>No aditivas</strong> (se promedian o se calculan como cociente, nunca se suman):</p>
+        <p><span class="pill no">Promedio del periodo</span><span class="pill no">Nota media s4–s8</span><span class="pill no">Puntaje Saber 11</span>
+          <span class="pill no">Absorción</span><span class="pill no">Retención</span><span class="pill no">Deserción</span>
+          <span class="pill no">Precisión</span><span class="pill no">Cobertura</span></p>
+        <p class="nota">Hecho auxiliar: <code>HechoAdmisiones</code> (una fila por admitido, 1.450), denominador de la absorción.</p>
+      </div>
+      <div>
+        <h3>Dimensiones (4)</h3>
+        <ul class="lista">
+          <li><strong>DimEstudiante</strong> (1.450): documento, estrato, tipo de colegio, Saber 11, fecha de admisión.</li>
+          <li><strong>DimPrograma</strong> (6): programa y <strong>facultad</strong> derivada.</li>
+          <li><strong>DimPeriodo</strong> (2): 2025-1 y 2025-2.</li>
+          <li><strong>DimEstadoPago</strong> (5): Pagado, Pendiente, Anulado, Sin liquidación, No aplica.</li>
+        </ul>
+        <p>7 relaciones <strong>1:*</strong> de dimensión a hecho, dirección única: el filtro por
+          <strong>programa</strong> y <strong>facultad</strong> viaja desde DimPrograma y el de <strong>estrato</strong> desde DimEstudiante.</p>
+      </div>
+    </div>
+
+    <figure>
+      <img src="img/modelo_estrella.png" alt="Vista de modelo de Power BI con las tablas de hechos y las cuatro dimensiones relacionadas">
+      <figcaption>Vista de modelo en Power BI Desktop (<code>Observatorio_Permanencia.pbix</code>).</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================== RETO 3 ============================== -->
+<section id="reto3">
+  <div class="cab"><span class="n">Reto 3</span><h2>Arquitectura objetivo</h2></div>
+  <div class="cuerpo">
+    <div class="aprueba"><strong>Se aprueba si:</strong> el diagrama tiene todos los elementos (fuentes internas y externas,
+      ingesta por lotes y por streaming, lake con zonas, DW/Lakehouse, capa semántica, tablero, canal de alertas y usuarios por rol)
+      y una tabla justifica cada tecnología en máximo 2 líneas.</div>
+
+    <figure>
+      <a href="img/arquitectura_observatorio.png" target="_blank" rel="noopener"><img src="img/arquitectura_observatorio.png"
+        alt="Diagrama de arquitectura: fuentes, ingesta por lotes y streaming, data lake con zonas bronce, plata y oro, BigQuery, capa semántica, tablero, motor y canal de alertas, y usuarios por rol"></a>
+      <figcaption>Clic para ampliar. Cada flecha indica la frecuencia del flujo. Diagrama editable en draw.io.</figcaption>
+    </figure>
+
+    <h3>¿Dónde se anonimizan los datos de Bienestar?</h3>
+    <p><strong>En la ingesta, antes de entrar al Data Lake</strong> (caja roja del diagrama). Los registros llegan a una zona restringida
+      donde se cruzan por nombre normalizado + programa y <strong>Cloud DLP</strong> elimina la columna <code>observacion</code> y reemplaza el nombre
+      por una <strong>llave seudónima</strong>. De ahí en adelante (lake, DW y tablero) solo viajan conteos por tipo de registro;
+      las identidades solo las ven los consejeros de Bienestar a través del canal de alertas.</p>
+
+    <h3>Frecuencia de cada flujo</h3>
+    <div class="tw"><table class=""><thead><tr><th>Flujo</th><th>Tipo</th><th>Frecuencia</th></tr></thead><tbody><tr><td>Moodle → Pub/Sub + Dataflow → Bronce y tabla de actividad</td><td>Streaming</td><td>Continuo (evento disponible en &lt; 1 min)</td></tr><tr><td>SIS Académico → Bronce</td><td>Lote</td><td>Diario 02:00 (incremental)</td></tr><tr><td>Admisiones → Bronce</td><td>Lote</td><td>Diario 02:00</td></tr><tr><td>ERP Financiero → Bronce</td><td>Lote</td><td>Diario 03:00</td></tr><tr><td>Bienestar → zona restringida (DLP) → Bronce</td><td>Lote</td><td>Semanal (domingo)</td></tr><tr><td>ICFES / DANE → Bronce</td><td>Lote</td><td>Anual</td></tr><tr><td>SPADIES / SNIES → Bronce</td><td>Lote</td><td>Semestral</td></tr><tr><td>Bronce → Plata → Oro (Dataform)</td><td>Lote</td><td>Diario 04:00 y 04:30</td></tr><tr><td>Oro → BigQuery (modelo estrella)</td><td>Lote</td><td>Diario 05:00</td></tr><tr><td>BigQuery → capa semántica</td><td>Lote</td><td>Diario 06:00</td></tr><tr><td>Capa semántica → tablero</td><td>Consulta</td><td>Al abrir el tablero (caché 12 h)</td></tr><tr><td>Tabla de actividad + notas → motor de alertas</td><td>Micro-lote</td><td>Cada 15 minutos</td></tr><tr><td>Motor de alertas → canal → consejeros y docentes</td><td>Evento</td><td>Inmediato</td></tr></tbody></table></div>
+
+    <h3>Justificación de cada tecnología</h3>
+    <div class="tw"><table class=""><thead><tr><th>Componente</th><th>Tecnología</th><th>Por qué</th></tr></thead><tbody><tr><td>Ingesta por lotes</td><td>Cloud Composer (Airflow)</td><td>Programa y reintenta las cargas diarias con dependencias entre tareas; es el estándar abierto de orquestación.</td></tr><tr><td>Ingesta streaming</td><td>Pub/Sub + Dataflow</td><td>Recibe los eventos de Moodle en segundos y escala solo; permite la alerta "casi en tiempo real".</td></tr><tr><td>Anonimización</td><td>Cloud DLP + zona restringida</td><td>Detecta y enmascara datos personales antes del lago; cumple la Ley 1581 de 2012 (habeas data).</td></tr><tr><td>Data Lake</td><td>Cloud Storage (Bronce/Plata/Oro)</td><td>Almacenamiento barato e ilimitado; las zonas separan dato crudo, limpio y curado y permiten reprocesar.</td></tr><tr><td>Transformación</td><td>Dataform (SQL)</td><td>Las reglas del ETL quedan versionadas en Git y se pueden volver a ejecutar sobre los datos crudos.</td></tr><tr><td>Lakehouse / DW</td><td>BigQuery</td><td>Sin servidores que administrar, consulta el lago directamente y aloja el modelo estrella del Reto 2.</td></tr><tr><td>Capa semántica</td><td>Modelo semántico Power BI / fuente certificada Looker</td><td>Define una sola vez Absorción, Retención, Deserción, Precisión y Cobertura: todos ven la misma cifra.</td></tr><tr><td>Tablero</td><td>Looker Studio</td><td>Gratuito, se publica y se embebe en la web con filtros en vivo, sin licencias para los lectores.</td></tr><tr><td>Motor de alertas</td><td>Cloud Run</td><td>Ejecuta la regla de alerta cada 15 min y solo cobra mientras corre.</td></tr><tr><td>Canal de alertas</td><td>Correo + Teams + mensaje Moodle</td><td>Llega a consejeros y docentes donde ya trabajan, sin herramientas nuevas.</td></tr><tr><td>Gobierno</td><td>IAM + RLS + Dataplex</td><td>Cada rol ve solo lo suyo (p. ej. un director solo su programa) y queda el linaje de cada dato.</td></tr></tbody></table></div>
+  </div>
+</section>
+
+<!-- ============================== RETO 4 ============================== -->
+<section id="reto4">
+  <div class="cab"><span class="n">Reto 4</span><h2>Tablero del Observatorio</h2></div>
+  <div class="cuerpo">
+    <div class="aprueba"><strong>Se aprueba si:</strong> los 7 valores coinciden con la clave del docente (±0,2) y los filtros funcionan en vivo.
+      Use los filtros de <strong>programa, facultad y estrato</strong> dentro del tablero.</div>
+
+    <div class="tablero">
+      <iframe src="https://datastudio.google.com/embed/reporting/8489f89b-036c-4e44-9429-83935a54ea58/page/Xt8CG" title="Tablero del Observatorio de Permanencia (Looker Studio)" allowfullscreen
+        sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+    </div>
+    <p class="nota">Si el tablero no carga, ábralo en una pestaña nueva:
+      <a href="https://datastudio.google.com/reporting/8489f89b-036c-4e44-9429-83935a54ea58/page/Xt8CG" target="_blank" rel="noopener">tablero en Looker Studio</a>.</p>
+
+    <h3>Los 7 indicadores frente a la meta (sin filtros)</h3>
+    <div class="semaforo">
+      <div class="sm"><span>Absorción · meta ≥ 85 %</span><b>82,8 %</b><span><i class="dot a"></i>En riesgo</span></div>
+      <div class="sm v"><span>Retención · meta ≥ 85 %</span><b>85,4 %</b><span><i class="dot v"></i>Cumple</span></div>
+      <div class="sm v"><span>Deserción · meta ≤ 15 %</span><b>14,6 %</b><span><i class="dot v"></i>Cumple</span></div>
+      <div class="sm"><span>Promedio cohorte · meta ≥ 3,5</span><b>3,38</b><span><i class="dot a"></i>En riesgo</span></div>
+      <div class="sm"><span>Alertados · meta ≤ 25 % de la cohorte</span><b>370</b><span><i class="dot a"></i>30,8 % de la cohorte</span></div>
+      <div class="sm r"><span>Precisión de la alerta · meta ≥ 50 %</span><b>32,7 %</b><span><i class="dot r"></i>No cumple</span></div>
+      <div class="sm"><span>Cobertura de la alerta · meta ≥ 75 %</span><b>69,1 %</b><span><i class="dot a"></i>En riesgo</span></div>
+    </div>
+
+    <h3>Metas definidas por el equipo</h3>
+    <div class="tw"><table>
+      <thead><tr><th>Indicador</th><th><i class="dot v"></i>Cumple</th><th><i class="dot a"></i>En riesgo</th><th><i class="dot r"></i>No cumple</th><th>Por qué</th></tr></thead>
+      <tbody>
+        <tr><td>Absorción</td><td>≥ 85 %</td><td>80 – 85 %</td><td>&lt; 80 %</td><td>85 de cada 100 admitidos deberían matricularse.</td></tr>
+        <tr><td>Retención</td><td>≥ 85 %</td><td>80 – 85 %</td><td>&lt; 80 %</td><td>Llevar la deserción de primer periodo por debajo de 15 %.</td></tr>
+        <tr><td>Deserción por programa</td><td>≤ 15 %</td><td>15 – 20 %</td><td>&gt; 20 %</td><td>Complemento de la meta de retención.</td></tr>
+        <tr><td>Promedio de la cohorte</td><td>≥ 3,5</td><td>3,0 – 3,5</td><td>&lt; 3,0</td><td>3,0 aprueba; 3,5 deja margen académico.</td></tr>
+        <tr><td>Alertados (% cohorte)</td><td>≤ 25 %</td><td>25 – 35 %</td><td>&gt; 35 %</td><td>Capacidad de consejería (≈ 300 casos por cohorte).</td></tr>
+        <tr><td>Precisión de la alerta</td><td>≥ 50 %</td><td>35 – 50 %</td><td>&lt; 35 %</td><td>Al menos 1 de cada 2 alertados debe ser riesgo real.</td></tr>
+        <tr><td>Cobertura de la alerta</td><td>≥ 75 %</td><td>60 – 75 %</td><td>&lt; 60 %</td><td>Detectar a 3 de cada 4 desertores.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Indicadores por programa</h3>
+    <div class="tw"><table><thead><tr><th>Programa</th><th class=num>Absorción</th><th class=num>Retención</th><th class=num>Deserción</th><th class=num>Promedio</th><th class=num>Alertados</th><th class=num>Precisión</th><th class=num>Cobertura</th></tr></thead><tbody><tr><td>Administración de Empresas</td><td class=num>83,0 %</td><td class=num>81,9 %</td><td class=num><span class="dot a"></span>18,1 %</td><td class=num>3,34</td><td class=num>87</td><td class=num>37,9 %</td><td class=num>71,7 %</td></tr><tr><td>Contaduría Pública</td><td class=num>81,9 %</td><td class=num>85,7 %</td><td class=num><span class="dot v"></span>14,3 %</td><td class=num>3,42</td><td class=num>42</td><td class=num>28,6 %</td><td class=num>54,5 %</td></tr><tr><td>Ingeniería Industrial</td><td class=num>86,3 %</td><td class=num>87,5 %</td><td class=num><span class="dot v"></span>12,5 %</td><td class=num>3,39</td><td class=num>50</td><td class=num>36,0 %</td><td class=num>81,8 %</td></tr><tr><td>Ingeniería Informática</td><td class=num>82,2 %</td><td class=num>83,5 %</td><td class=num><span class="dot a"></span>16,5 %</td><td class=num>3,39</td><td class=num>72</td><td class=num>31,9 %</td><td class=num>59,0 %</td></tr><tr><td>Psicología</td><td class=num>82,3 %</td><td class=num>89,5 %</td><td class=num><span class="dot v"></span>10,5 %</td><td class=num>3,38</td><td class=num>72</td><td class=num>23,6 %</td><td class=num>70,8 %</td></tr><tr><td>Trabajo Social</td><td class=num>80,9 %</td><td class=num>85,5 %</td><td class=num><span class="dot v"></span>14,5 %</td><td class=num>3,38</td><td class=num>47</td><td class=num>38,3 %</td><td class=num>81,8 %</td></tr><tr class=tot><td>Total universidad</td><td class=num>82,8 %</td><td class=num>85,4 %</td><td class=num><span class="dot v"></span>14,6 %</td><td class=num>3,38</td><td class=num>370</td><td class=num>32,7 %</td><td class=num>69,1 %</td></tr></tbody></table></div>
+    <p class="nota">Punto de color = semáforo de deserción frente a la meta de 15 %.</p>
+
+    <h3>Lectura</h3>
+    <p>La retención (85,4 %) y la deserción (14,6 %) <strong>cumplen la meta</strong> en el total, pero no en todos los grupos:
+      <strong>Administración de Empresas</strong> (18,1 %) e <strong>Ingeniería Informática</strong> (16,5 %) están en riesgo y el
+      <strong>estrato 1</strong> tiene la deserción más alta (22,0 %). La alerta temprana detecta a 7 de cada 10 desertores
+      (cobertura 69,1 %), pero solo 1 de cada 3 alertados termina desertando (precisión 32,7 %, en rojo): sirve como primer
+      filtro, aunque genera muchos falsos positivos y conviene ajustar la regla.</p>
+    <a class="btn sec" href="datos/tablero_permanencia.csv" download>⬇ Fuente de datos del tablero (sin datos personales)</a>
+  </div>
+</section>
+
+
+<!-- ============================== REFERENCIAS ============================== -->
+<section id="referencias">
+  <div class="cab"><span class="n">APA 7</span><h2>Referencias</h2></div>
+  <div class="cuerpo refs">
+    <p>[COMPLETAR · material del curso 1] Autor, A. A. (Año). <em>Título del documento o lectura del curso</em>. Editorial o Universidad Católica del Norte. URL</p>
+    <p>[COMPLETAR · material del curso 2] Autor, A. A. (Año). <em>Título del documento o lectura del curso</em>. Editorial o Universidad Católica del Norte. URL</p>
+    <p>Armbrust, M., Ghodsi, A., Xin, R., &amp; Zaharia, M. (2021). Lakehouse: A new generation of open platforms that unify data warehousing and advanced analytics. En <em>Proceedings of the 11th Conference on Innovative Data Systems Research (CIDR)</em>.</p>
+    <p>Kimball, R., &amp; Ross, M. (2013). <em>The data warehouse toolkit: The definitive guide to dimensional modeling</em> (3.ª ed.). Wiley.</p>
+    <p>Kleppmann, M. (2017). <em>Designing data-intensive applications</em>. O'Reilly Media.</p>
+    <p>Tinto, V. (1975). Dropout from higher education: A theoretical synthesis of recent research. <em>Review of Educational Research, 45</em>(1), 89–125. https://doi.org/10.3102/00346543045001089</p>
+  </div>
+</section>
+
+</main>
+<footer>Observatorio de Permanencia · Universidad Andina del Norte (institución ficticia, datos sintéticos con fines académicos)</footer>
+</body>
+</html>

@@ -1,0 +1,1451 @@
+id_admitido,programa,facultad,estrato,tipo_colegio,admitido,en_cohorte,retenido,desertor,alertado,alertado_desertor,promedio_periodo
+ADM-0001,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.5
+ADM-0002,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,0,1,0,0,3.6
+ADM-0003,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0004,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,2.8
+ADM-0005,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,3.4
+ADM-0006,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,1,0,2.7
+ADM-0007,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,0,1,0,0,3.5
+ADM-0008,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,3.8
+ADM-0009,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,1,0,3.0
+ADM-0010,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.1
+ADM-0011,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,2.8
+ADM-0012,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,0,1,1,1,2.6
+ADM-0013,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,4.2
+ADM-0014,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0015,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.6
+ADM-0016,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,4.5
+ADM-0017,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,3.4
+ADM-0018,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0019,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.5
+ADM-0020,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,0,0,3.2
+ADM-0021,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,2.7
+ADM-0022,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,2.2
+ADM-0023,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.8
+ADM-0024,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,0,1,1,1,2.4
+ADM-0025,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,4.4
+ADM-0026,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,1,0,2.7
+ADM-0027,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-0028,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,
+ADM-0029,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,3.1
+ADM-0030,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,3.2
+ADM-0031,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0032,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,2.2
+ADM-0033,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,0,0,3.1
+ADM-0034,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,1,0,3.1
+ADM-0035,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0036,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,
+ADM-0037,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,2.8
+ADM-0038,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,4.0
+ADM-0039,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0040,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,3.4
+ADM-0041,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.7
+ADM-0042,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0043,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,3.4
+ADM-0044,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.7
+ADM-0045,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,4.2
+ADM-0046,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,0,1,1,1,2.5
+ADM-0047,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,2.9
+ADM-0048,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,0,1,1,1,2.4
+ADM-0049,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0050,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,3.2
+ADM-0051,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,0,1,1,1,3.1
+ADM-0052,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.3
+ADM-0053,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-0054,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0055,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.3
+ADM-0056,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 6,Privado,1,0,0,0,0,0,
+ADM-0057,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0058,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,0,1,0,0,2.9
+ADM-0059,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0060,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,2.6
+ADM-0061,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-0062,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,4.5
+ADM-0063,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,1,0,2.8
+ADM-0064,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,0,0,3.0
+ADM-0065,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-0066,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.9
+ADM-0067,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.2
+ADM-0068,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,1,0,3.9
+ADM-0069,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,1,0,3.2
+ADM-0070,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,1,0,3.1
+ADM-0071,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 6,Privado,1,1,1,0,0,0,3.1
+ADM-0072,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,3.7
+ADM-0073,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,1,0,2.8
+ADM-0074,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.6
+ADM-0075,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,4.5
+ADM-0076,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,2.6
+ADM-0077,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-0078,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.1
+ADM-0079,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,3.1
+ADM-0080,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0081,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0082,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,0,1,0,0,2.8
+ADM-0083,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.5
+ADM-0084,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,3.3
+ADM-0085,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0086,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.8
+ADM-0087,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.2
+ADM-0088,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,0,1,0,0,3.1
+ADM-0089,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,3.2
+ADM-0090,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,3.5
+ADM-0091,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.7
+ADM-0092,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,0,1,1,1,2.4
+ADM-0093,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.8
+ADM-0094,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,
+ADM-0095,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,4.0
+ADM-0096,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0097,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,0,1,1,1,2.8
+ADM-0098,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,0,1,1,1,3.0
+ADM-0099,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,2.8
+ADM-0100,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,1,0,3.4
+ADM-0101,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0102,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-0103,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0104,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,1,0,3.6
+ADM-0105,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.6
+ADM-0106,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.0
+ADM-0107,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.9
+ADM-0108,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.3
+ADM-0109,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,0,1,1,1,2.2
+ADM-0110,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,4.2
+ADM-0111,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,3.9
+ADM-0112,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.1
+ADM-0113,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,4.5
+ADM-0114,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0115,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0116,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,0,1,1,1,
+ADM-0117,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0118,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,2.9
+ADM-0119,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0120,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0121,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0122,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.1
+ADM-0123,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,0,1,0,0,3.0
+ADM-0124,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,1,0,2.7
+ADM-0125,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,3.5
+ADM-0126,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,0,1,1,1,3.0
+ADM-0127,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,3.3
+ADM-0128,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0129,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,0,1,1,1,3.7
+ADM-0130,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0131,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,4.4
+ADM-0132,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,4.2
+ADM-0133,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.5
+ADM-0134,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.8
+ADM-0135,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.4
+ADM-0136,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,1,0,2.9
+ADM-0137,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-0138,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,0,1,0,0,3.0
+ADM-0139,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,1,0,2.3
+ADM-0140,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,4.1
+ADM-0141,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,2.8
+ADM-0142,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0143,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,1,0,2.7
+ADM-0144,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0145,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-0146,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.9
+ADM-0147,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-0148,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,4.0
+ADM-0149,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 6,Oficial,1,1,1,0,0,0,3.0
+ADM-0150,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,4.6
+ADM-0151,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0152,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.3
+ADM-0153,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,3.0
+ADM-0154,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,1,0,2.2
+ADM-0155,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 6,Oficial,1,1,1,0,0,0,3.2
+ADM-0156,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,2.9
+ADM-0157,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,2.6
+ADM-0158,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,4.5
+ADM-0159,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,4.2
+ADM-0160,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.1
+ADM-0161,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.7
+ADM-0162,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,1,0,2.4
+ADM-0163,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,1,0,3.5
+ADM-0164,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,0,0,0,0,0,
+ADM-0165,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,2.8
+ADM-0166,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,0,1,1,1,2.5
+ADM-0167,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,0,0,3.8
+ADM-0168,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,0,1,0,0,2.7
+ADM-0169,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.9
+ADM-0170,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,4.2
+ADM-0171,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,0,1,1,1,2.8
+ADM-0172,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,4.7
+ADM-0173,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,2.9
+ADM-0174,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0175,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0176,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,4.1
+ADM-0177,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,4.4
+ADM-0178,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,0,1,1,1,2.8
+ADM-0179,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-0180,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,4.4
+ADM-0181,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.9
+ADM-0182,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,2.3
+ADM-0183,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,4.4
+ADM-0184,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-0185,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.6
+ADM-0186,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,3.2
+ADM-0187,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,1,0,2.5
+ADM-0188,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0189,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-0190,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.2
+ADM-0191,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,1,0,2.7
+ADM-0192,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-0193,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,4.0
+ADM-0194,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,4.2
+ADM-0195,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,0,0,4.0
+ADM-0196,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.6
+ADM-0197,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0198,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,1,0,3.4
+ADM-0199,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0200,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,4.6
+ADM-0201,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-0202,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,2.2
+ADM-0203,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,3.2
+ADM-0204,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,1,0,2.5
+ADM-0205,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.6
+ADM-0206,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,0,1,0,0,2.8
+ADM-0207,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 6,Oficial,1,1,1,0,1,0,2.9
+ADM-0208,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.6
+ADM-0209,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,4.0
+ADM-0210,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0211,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.6
+ADM-0212,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,3.2
+ADM-0213,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,4.3
+ADM-0214,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0215,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.7
+ADM-0216,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0217,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0218,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,3.3
+ADM-0219,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,2.6
+ADM-0220,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.1
+ADM-0221,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.6
+ADM-0222,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.0
+ADM-0223,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,1,0,3.0
+ADM-0224,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.3
+ADM-0225,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0226,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,0,1,1,1,3.8
+ADM-0227,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,0,1,1,1,2.0
+ADM-0228,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,
+ADM-0229,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,2.3
+ADM-0230,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.7
+ADM-0231,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,3.3
+ADM-0232,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,0,0,0,0,0,
+ADM-0233,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,3.2
+ADM-0234,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 6,Oficial,1,1,1,0,0,0,3.9
+ADM-0235,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,1,0,2.8
+ADM-0236,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 6,Oficial,1,1,1,0,1,0,1.9
+ADM-0237,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0238,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,0,1,1,1,2.8
+ADM-0239,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.5
+ADM-0240,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,2.8
+ADM-0241,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,3.3
+ADM-0242,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,2.8
+ADM-0243,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,0,1,1,1,2.3
+ADM-0244,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,3.6
+ADM-0245,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0246,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,3.3
+ADM-0247,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,3.3
+ADM-0248,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,2.9
+ADM-0249,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,3.2
+ADM-0250,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0251,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.8
+ADM-0252,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,0,1,1,1,2.5
+ADM-0253,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,3.1
+ADM-0254,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.0
+ADM-0255,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,0,1,1,1,3.2
+ADM-0256,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,1,0,2.4
+ADM-0257,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.2
+ADM-0258,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,0,1,1,1,2.7
+ADM-0259,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-0260,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0261,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.7
+ADM-0262,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,0,1,1,1,3.7
+ADM-0263,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0264,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0265,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,0,1,0,0,2.6
+ADM-0266,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,0,1,0,0,2.3
+ADM-0267,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,3.5
+ADM-0268,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,2.9
+ADM-0269,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,2.4
+ADM-0270,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,4.1
+ADM-0271,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,3.0
+ADM-0272,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.9
+ADM-0273,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.3
+ADM-0274,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,1,0,2.1
+ADM-0275,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,4.6
+ADM-0276,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0277,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,0,0,0,0,0,
+ADM-0278,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,4.0
+ADM-0279,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.7
+ADM-0280,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,3.3
+ADM-0281,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,1,0,3.7
+ADM-0282,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,4.4
+ADM-0283,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.3
+ADM-0284,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,3.9
+ADM-0285,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,3.3
+ADM-0286,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,0,1,0,0,3.3
+ADM-0287,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.6
+ADM-0288,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.8
+ADM-0289,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-0290,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,2.8
+ADM-0291,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,1,0,3.0
+ADM-0292,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,4.7
+ADM-0293,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,2.8
+ADM-0294,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0295,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0296,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0297,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,4.0
+ADM-0298,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,4.7
+ADM-0299,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,4.5
+ADM-0300,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0301,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,4.6
+ADM-0302,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,0,1,1,1,2.4
+ADM-0303,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,1,0,3.0
+ADM-0304,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0305,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0306,Administración de Empresas,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,1,0,2.7
+ADM-0307,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,1,0,2.7
+ADM-0308,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,
+ADM-0309,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,0,1,1,1,2.8
+ADM-0310,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,3.4
+ADM-0311,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,
+ADM-0312,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0313,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.5
+ADM-0314,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0315,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.7
+ADM-0316,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,4.6
+ADM-0317,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,3.2
+ADM-0318,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,3.8
+ADM-0319,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.1
+ADM-0320,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,0,0,3.2
+ADM-0321,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.6
+ADM-0322,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0323,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,2.9
+ADM-0324,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,4.4
+ADM-0325,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,4.2
+ADM-0326,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0327,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,3.0
+ADM-0328,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 6,Oficial,1,0,0,0,0,0,
+ADM-0329,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,4.3
+ADM-0330,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,0,0,4.2
+ADM-0331,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,4.0
+ADM-0332,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.9
+ADM-0333,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.1
+ADM-0334,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-0335,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,0,1,0,0,3.1
+ADM-0336,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,4.2
+ADM-0337,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,5.0
+ADM-0338,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,2.0
+ADM-0339,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0340,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,2.2
+ADM-0341,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.8
+ADM-0342,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0343,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,4.2
+ADM-0344,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0345,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,4.1
+ADM-0346,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.0
+ADM-0347,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.9
+ADM-0348,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,1,0,2.6
+ADM-0349,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.6
+ADM-0350,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.3
+ADM-0351,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.5
+ADM-0352,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.0
+ADM-0353,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0354,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,0,1,1,1,2.8
+ADM-0355,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-0356,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,1,0,3.4
+ADM-0357,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,1,0,3.2
+ADM-0358,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,0,0,3.8
+ADM-0359,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,0,1,1,1,2.8
+ADM-0360,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,0,0,2.7
+ADM-0361,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,3.3
+ADM-0362,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.8
+ADM-0363,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0364,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.2
+ADM-0365,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,2.9
+ADM-0366,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,2.3
+ADM-0367,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0368,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,3.1
+ADM-0369,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.8
+ADM-0370,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-0371,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.6
+ADM-0372,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,3.4
+ADM-0373,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-0374,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0375,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.0
+ADM-0376,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,1,0,
+ADM-0377,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-0378,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,4.6
+ADM-0379,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0380,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-0381,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.2
+ADM-0382,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,3.0
+ADM-0383,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,0,1,0,0,2.9
+ADM-0384,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0385,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,3.7
+ADM-0386,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0387,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,2.7
+ADM-0388,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,2.0
+ADM-0389,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,0,1,0,0,3.5
+ADM-0390,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,0,1,0,0,3.0
+ADM-0391,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0392,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,1,0,3.1
+ADM-0393,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0394,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.1
+ADM-0395,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0396,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,3.6
+ADM-0397,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,4.6
+ADM-0398,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,0,1,1,1,2.4
+ADM-0399,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,4.1
+ADM-0400,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-0401,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,3.6
+ADM-0402,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,3.0
+ADM-0403,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,1,0,3.1
+ADM-0404,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,2.8
+ADM-0405,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,0,1,0,0,3.3
+ADM-0406,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.6
+ADM-0407,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,1,0,3.4
+ADM-0408,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.3
+ADM-0409,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,0,0,3.0
+ADM-0410,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,1,0,3.0
+ADM-0411,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,5.0
+ADM-0412,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,2.7
+ADM-0413,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,1,0,0,0,2.8
+ADM-0414,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,3.6
+ADM-0415,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,1,0,2.6
+ADM-0416,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,2.9
+ADM-0417,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.1
+ADM-0418,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,4.2
+ADM-0419,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,0,1,0,0,2.9
+ADM-0420,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,1,0,3.5
+ADM-0421,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,0,1,1,1,4.3
+ADM-0422,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-0423,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,4.4
+ADM-0424,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,0,1,0,0,3.7
+ADM-0425,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0426,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,2.7
+ADM-0427,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,1,0,2.4
+ADM-0428,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.2
+ADM-0429,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-0430,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,1,0,2.7
+ADM-0431,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.3
+ADM-0432,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0433,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.5
+ADM-0434,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,4.2
+ADM-0435,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0436,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,0,0,4.6
+ADM-0437,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.4
+ADM-0438,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.5
+ADM-0439,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,3.4
+ADM-0440,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,0,1,1,1,2.0
+ADM-0441,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.6
+ADM-0442,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,1,0,2.6
+ADM-0443,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,1,0,3.1
+ADM-0444,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,0,0,3.6
+ADM-0445,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,2.7
+ADM-0446,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,4.0
+ADM-0447,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.6
+ADM-0448,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-0449,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,1,0,3.1
+ADM-0450,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,1,0,0,0,3.8
+ADM-0451,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,4.4
+ADM-0452,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Privado,1,1,1,0,0,0,3.0
+ADM-0453,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Privado,1,1,0,1,1,1,2.8
+ADM-0454,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,1,0,3.7
+ADM-0455,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.8
+ADM-0456,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,1,1,0,1,0,2.6
+ADM-0457,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,3.8
+ADM-0458,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.8
+ADM-0459,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,1,0,3.3
+ADM-0460,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.2
+ADM-0461,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0462,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,0,0,0,0,0,
+ADM-0463,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,2.7
+ADM-0464,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,4.7
+ADM-0465,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0466,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,1,1,0,0,0,4.3
+ADM-0467,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,3.6
+ADM-0468,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,3.1
+ADM-0469,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,1,0,0,0,2.8
+ADM-0470,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,0,1,1,1,2.6
+ADM-0471,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Oficial,1,1,1,0,0,0,3.8
+ADM-0472,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,3.9
+ADM-0473,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.7
+ADM-0474,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0475,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-0476,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,0,1,1,1,
+ADM-0477,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 1,Oficial,1,1,0,1,0,0,4.4
+ADM-0478,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 5,Oficial,1,0,0,0,0,0,
+ADM-0479,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.9
+ADM-0480,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,1,1,0,0,0,4.0
+ADM-0481,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.2
+ADM-0482,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0483,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,1,1,0,1,0,3.0
+ADM-0484,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,1,0,1,0,0,3.0
+ADM-0485,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.7
+ADM-0486,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,3.4
+ADM-0487,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0488,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,1,1,0,0,0,4.4
+ADM-0489,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0490,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0491,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0492,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0493,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-0494,Contaduría Pública,Ciencias Económicas y Administrativas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0495,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.6
+ADM-0496,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,1,0,2.9
+ADM-0497,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.4
+ADM-0498,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,3.2
+ADM-0499,Ingeniería Industrial,Ingeniería,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0500,Ingeniería Industrial,Ingeniería,Estrato 1,Privado,1,1,1,0,1,0,3.7
+ADM-0501,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,0,0,0,0,0,
+ADM-0502,Ingeniería Industrial,Ingeniería,Estrato 5,Oficial,1,1,0,1,1,1,2.5
+ADM-0503,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,4.6
+ADM-0504,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.0
+ADM-0505,Ingeniería Industrial,Ingeniería,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0506,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.5
+ADM-0507,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.0
+ADM-0508,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,1,1,0,1,0,3.1
+ADM-0509,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.3
+ADM-0510,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,1,0,2.7
+ADM-0511,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.8
+ADM-0512,Ingeniería Industrial,Ingeniería,Estrato 6,Privado,1,1,1,0,0,0,4.2
+ADM-0513,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,3.4
+ADM-0514,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,1,1,0,1,0,2.3
+ADM-0515,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0516,Ingeniería Industrial,Ingeniería,Estrato 5,Privado,1,1,1,0,0,0,2.7
+ADM-0517,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0518,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,0,1,1,1,2.7
+ADM-0519,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.3
+ADM-0520,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,1,0,2.9
+ADM-0521,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,4.2
+ADM-0522,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.3
+ADM-0523,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.5
+ADM-0524,Ingeniería Industrial,Ingeniería,Estrato 4,Privado,1,1,1,0,0,0,3.1
+ADM-0525,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.2
+ADM-0526,Ingeniería Industrial,Ingeniería,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-0527,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,0,1,1,1,2.4
+ADM-0528,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0529,Ingeniería Industrial,Ingeniería,Estrato 4,Oficial,1,1,0,1,1,1,2.9
+ADM-0530,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,0,1,0,0,3.1
+ADM-0531,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.2
+ADM-0532,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,0,0,0,0,0,
+ADM-0533,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,2.5
+ADM-0534,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0535,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,0,1,1,1,2.1
+ADM-0536,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0537,Ingeniería Industrial,Ingeniería,Estrato 5,Oficial,1,1,1,0,0,0,3.9
+ADM-0538,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.8
+ADM-0539,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0540,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.8
+ADM-0541,Ingeniería Industrial,Ingeniería,Estrato 5,Privado,1,0,0,0,0,0,
+ADM-0542,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.5
+ADM-0543,Ingeniería Industrial,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,3.9
+ADM-0544,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0545,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.1
+ADM-0546,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0547,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.6
+ADM-0548,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.5
+ADM-0549,Ingeniería Industrial,Ingeniería,Estrato 5,Privado,1,1,1,0,0,0,3.2
+ADM-0550,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.3
+ADM-0551,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.1
+ADM-0552,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,3.4
+ADM-0553,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.2
+ADM-0554,Ingeniería Industrial,Ingeniería,Estrato 1,Privado,1,1,0,1,1,1,2.1
+ADM-0555,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.4
+ADM-0556,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.7
+ADM-0557,Ingeniería Industrial,Ingeniería,Estrato 4,Privado,1,1,1,0,0,0,3.9
+ADM-0558,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,2.9
+ADM-0559,Ingeniería Industrial,Ingeniería,Estrato 5,Privado,1,1,1,0,1,0,
+ADM-0560,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.3
+ADM-0561,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,0,1,1,1,2.9
+ADM-0562,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.1
+ADM-0563,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.6
+ADM-0564,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.3
+ADM-0565,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,0,1,0,0,3.0
+ADM-0566,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-0567,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,0,1,1,1,3.0
+ADM-0568,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.5
+ADM-0569,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-0570,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,4.7
+ADM-0571,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.0
+ADM-0572,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-0573,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-0574,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.8
+ADM-0575,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.9
+ADM-0576,Ingeniería Industrial,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,3.8
+ADM-0577,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.3
+ADM-0578,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.2
+ADM-0579,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-0580,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,0,0,0,0,0,
+ADM-0581,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,2.9
+ADM-0582,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,3.4
+ADM-0583,Ingeniería Industrial,Ingeniería,Estrato 5,Oficial,1,1,1,0,0,0,4.2
+ADM-0584,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.1
+ADM-0585,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.3
+ADM-0586,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,0,1,0,0,2.9
+ADM-0587,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.0
+ADM-0588,Ingeniería Industrial,Ingeniería,Estrato 1,Privado,1,1,1,0,1,0,2.7
+ADM-0589,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.1
+ADM-0590,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.6
+ADM-0591,Ingeniería Industrial,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,3.5
+ADM-0592,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-0593,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.3
+ADM-0594,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,1,0,3.0
+ADM-0595,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,3.5
+ADM-0596,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,3.2
+ADM-0597,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,1,0,2.9
+ADM-0598,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.0
+ADM-0599,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.7
+ADM-0600,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,3.0
+ADM-0601,Ingeniería Industrial,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,
+ADM-0602,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,
+ADM-0603,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.1
+ADM-0604,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.5
+ADM-0605,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0606,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,0,1,1,1,3.3
+ADM-0607,Ingeniería Industrial,Ingeniería,Estrato 6,Privado,1,1,1,0,0,0,4.0
+ADM-0608,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,
+ADM-0609,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.9
+ADM-0610,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,4.9
+ADM-0611,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,2.8
+ADM-0612,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,0,1,1,1,2.1
+ADM-0613,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,3.2
+ADM-0614,Ingeniería Industrial,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,3.3
+ADM-0615,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.7
+ADM-0616,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.7
+ADM-0617,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,0,1,1,1,3.2
+ADM-0618,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.7
+ADM-0619,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.4
+ADM-0620,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.5
+ADM-0621,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0622,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,1,0,1.9
+ADM-0623,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0624,Ingeniería Industrial,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,3.5
+ADM-0625,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.0
+ADM-0626,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.1
+ADM-0627,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.3
+ADM-0628,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,1,0,3.0
+ADM-0629,Ingeniería Industrial,Ingeniería,Estrato 5,Privado,1,0,0,0,0,0,
+ADM-0630,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.9
+ADM-0631,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0632,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.4
+ADM-0633,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,3.2
+ADM-0634,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0635,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0636,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,1.9
+ADM-0637,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,1,0,2.6
+ADM-0638,Ingeniería Industrial,Ingeniería,Estrato 6,Privado,1,1,1,0,0,0,3.2
+ADM-0639,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.1
+ADM-0640,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0641,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-0642,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.8
+ADM-0643,Ingeniería Industrial,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,3.5
+ADM-0644,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.4
+ADM-0645,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.9
+ADM-0646,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.0
+ADM-0647,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-0648,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,0,1,0,0,3.6
+ADM-0649,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.2
+ADM-0650,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.5
+ADM-0651,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.3
+ADM-0652,Ingeniería Industrial,Ingeniería,Estrato 4,Oficial,1,1,1,0,1,0,2.8
+ADM-0653,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,1,0,1,1,1,2.0
+ADM-0654,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.6
+ADM-0655,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.3
+ADM-0656,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,2.7
+ADM-0657,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,0,1,1,1,1.7
+ADM-0658,Ingeniería Industrial,Ingeniería,Estrato 5,Oficial,1,1,0,1,1,1,2.4
+ADM-0659,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.6
+ADM-0660,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.8
+ADM-0661,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.8
+ADM-0662,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,2.9
+ADM-0663,Ingeniería Industrial,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,3.9
+ADM-0664,Ingeniería Industrial,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,3.1
+ADM-0665,Ingeniería Industrial,Ingeniería,Estrato 5,Privado,1,1,1,0,1,0,2.5
+ADM-0666,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0667,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,0,1,1,1,2.4
+ADM-0668,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.5
+ADM-0669,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,3.8
+ADM-0670,Ingeniería Industrial,Ingeniería,Estrato 4,Oficial,1,1,1,0,1,0,2.0
+ADM-0671,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.5
+ADM-0672,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.2
+ADM-0673,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0674,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,0,1,1,1,2.1
+ADM-0675,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.4
+ADM-0676,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.7
+ADM-0677,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0678,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,1,0,1,0,3.2
+ADM-0679,Ingeniería Industrial,Ingeniería,Estrato 6,Privado,1,1,1,0,1,0,3.0
+ADM-0680,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,3.8
+ADM-0681,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0682,Ingeniería Industrial,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.1
+ADM-0683,Ingeniería Industrial,Ingeniería,Estrato 4,Privado,1,1,1,0,1,0,3.0
+ADM-0684,Ingeniería Industrial,Ingeniería,Estrato 2,Privado,1,1,0,1,1,1,3.0
+ADM-0685,Ingeniería Industrial,Ingeniería,Estrato 6,Privado,1,1,1,0,0,0,4.2
+ADM-0686,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-0687,Ingeniería Industrial,Ingeniería,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-0688,Ingeniería Industrial,Ingeniería,Estrato 6,Oficial,1,0,0,0,0,0,
+ADM-0689,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.8
+ADM-0690,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,0,1,1,1,2.3
+ADM-0691,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0692,Ingeniería Industrial,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.1
+ADM-0693,Ingeniería Industrial,Ingeniería,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0694,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-0695,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0696,Ingeniería Industrial,Ingeniería,Estrato 5,Oficial,1,0,0,0,0,0,
+ADM-0697,Ingeniería Industrial,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,
+ADM-0698,Ingeniería Industrial,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0699,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,0,1,0,0,3.6
+ADM-0700,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,1,0,0,0,3.6
+ADM-0701,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,3.3
+ADM-0702,Ingeniería Informática,Ingeniería,Estrato 5,Oficial,1,1,1,0,1,0,4.0
+ADM-0703,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,1,0,1,0,2.7
+ADM-0704,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,3.0
+ADM-0705,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.0
+ADM-0706,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,0,1,0,0,3.3
+ADM-0707,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,3.6
+ADM-0708,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,5.0
+ADM-0709,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-0710,Ingeniería Informática,Ingeniería,Estrato 5,Privado,1,1,1,0,1,0,3.1
+ADM-0711,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.1
+ADM-0712,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,1,0,1,0,3.2
+ADM-0713,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.2
+ADM-0714,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0715,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.0
+ADM-0716,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0717,Ingeniería Informática,Ingeniería,Estrato 5,Privado,1,1,1,0,1,0,3.1
+ADM-0718,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,1,0,1,0,3.6
+ADM-0719,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.1
+ADM-0720,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,
+ADM-0721,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,3.6
+ADM-0722,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.0
+ADM-0723,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0724,Ingeniería Informática,Ingeniería,Estrato 5,Privado,1,0,0,0,0,0,
+ADM-0725,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0726,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.3
+ADM-0727,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.3
+ADM-0728,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,0,1,1,1,2.9
+ADM-0729,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.0
+ADM-0730,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.6
+ADM-0731,Ingeniería Informática,Ingeniería,Estrato 6,Oficial,1,1,1,0,1,0,3.9
+ADM-0732,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.7
+ADM-0733,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0734,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.8
+ADM-0735,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0736,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.9
+ADM-0737,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,0,1,0,0,3.3
+ADM-0738,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.4
+ADM-0739,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.4
+ADM-0740,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,2.7
+ADM-0741,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.5
+ADM-0742,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0743,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,0,1,1,1,2.7
+ADM-0744,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.9
+ADM-0745,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.8
+ADM-0746,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0747,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-0748,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,1,0,2.8
+ADM-0749,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,3.1
+ADM-0750,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0751,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.0
+ADM-0752,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,4.3
+ADM-0753,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.1
+ADM-0754,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,3.3
+ADM-0755,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.9
+ADM-0756,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,2.7
+ADM-0757,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,0,1,1,1,2.6
+ADM-0758,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.1
+ADM-0759,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0760,Ingeniería Informática,Ingeniería,Estrato 5,Privado,1,1,1,0,0,0,3.6
+ADM-0761,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.6
+ADM-0762,Ingeniería Informática,Ingeniería,Estrato 5,Oficial,1,1,1,0,0,0,3.4
+ADM-0763,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,1,0,0,0,3.8
+ADM-0764,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,5.0
+ADM-0765,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.2
+ADM-0766,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.4
+ADM-0767,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,0,1,0,0,3.8
+ADM-0768,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,0,1,0,0,3.1
+ADM-0769,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0770,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,1,0,2.5
+ADM-0771,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-0772,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.4
+ADM-0773,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.6
+ADM-0774,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.5
+ADM-0775,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.4
+ADM-0776,Ingeniería Informática,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,
+ADM-0777,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.3
+ADM-0778,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,2.9
+ADM-0779,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,1,0,3.0
+ADM-0780,Ingeniería Informática,Ingeniería,Estrato 5,Oficial,1,1,0,1,1,1,2.9
+ADM-0781,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,0,1,1,1,2.5
+ADM-0782,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.2
+ADM-0783,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.6
+ADM-0784,Ingeniería Informática,Ingeniería,Estrato 6,Oficial,1,0,0,0,0,0,
+ADM-0785,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,0,1,1,1,3.2
+ADM-0786,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,0,1,1,1,2.1
+ADM-0787,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.8
+ADM-0788,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-0789,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-0790,Ingeniería Informática,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,3.1
+ADM-0791,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-0792,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,0,1,1,1,2.8
+ADM-0793,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0794,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.5
+ADM-0795,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0796,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.4
+ADM-0797,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0798,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.0
+ADM-0799,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-0800,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,1,0,2.3
+ADM-0801,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,3.7
+ADM-0802,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,2.5
+ADM-0803,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,0,1,1,1,2.9
+ADM-0804,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0805,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.8
+ADM-0806,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.7
+ADM-0807,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,3.4
+ADM-0808,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,4.1
+ADM-0809,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0810,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0811,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,0,1,0,0,3.0
+ADM-0812,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,3.5
+ADM-0813,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,2.9
+ADM-0814,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,3.1
+ADM-0815,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-0816,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0817,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.0
+ADM-0818,Ingeniería Informática,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,3.9
+ADM-0819,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,3.6
+ADM-0820,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.7
+ADM-0821,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,0,1,1,1,1.9
+ADM-0822,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,3.0
+ADM-0823,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,1,0,0,0,3.5
+ADM-0824,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.2
+ADM-0825,Ingeniería Informática,Ingeniería,Estrato 6,Privado,1,1,1,0,0,0,3.2
+ADM-0826,Ingeniería Informática,Ingeniería,Estrato 5,Oficial,1,1,1,0,0,0,4.0
+ADM-0827,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,3.2
+ADM-0828,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,1,0,3.1
+ADM-0829,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0830,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0831,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,0,1,0,0,3.0
+ADM-0832,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,0,1,0,0,3.8
+ADM-0833,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,4.4
+ADM-0834,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.2
+ADM-0835,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0836,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,3.2
+ADM-0837,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,1,0,2.9
+ADM-0838,Ingeniería Informática,Ingeniería,Estrato 6,Privado,1,0,0,0,0,0,
+ADM-0839,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.3
+ADM-0840,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.4
+ADM-0841,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,1,0,2.0
+ADM-0842,Ingeniería Informática,Ingeniería,Estrato 5,Privado,1,1,0,1,0,0,3.9
+ADM-0843,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0844,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,0,1,0,0,3.4
+ADM-0845,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.1
+ADM-0846,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,1,0,0,0,3.6
+ADM-0847,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,0,1,1,1,3.7
+ADM-0848,Ingeniería Informática,Ingeniería,Estrato 5,Oficial,1,1,1,0,0,0,3.2
+ADM-0849,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,1,0,2.9
+ADM-0850,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-0851,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,3.4
+ADM-0852,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,1,0,
+ADM-0853,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,3.3
+ADM-0854,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.6
+ADM-0855,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0856,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.5
+ADM-0857,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,2.9
+ADM-0858,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,0,1,1,1,1.8
+ADM-0859,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,2.9
+ADM-0860,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0861,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.4
+ADM-0862,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,2.6
+ADM-0863,Ingeniería Informática,Ingeniería,Estrato 5,Privado,1,0,0,0,0,0,
+ADM-0864,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,0,1,0,0,2.8
+ADM-0865,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,3.0
+ADM-0866,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0867,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.8
+ADM-0868,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,1,0,0,0,3.6
+ADM-0869,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.8
+ADM-0870,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,0,1,0,0,3.0
+ADM-0871,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,0,1,1,1,2.0
+ADM-0872,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.5
+ADM-0873,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0874,Ingeniería Informática,Ingeniería,Estrato 5,Oficial,1,1,1,0,0,0,3.6
+ADM-0875,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,1,0,0,0,3.4
+ADM-0876,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.0
+ADM-0877,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.1
+ADM-0878,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,1,0,2.1
+ADM-0879,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.2
+ADM-0880,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.2
+ADM-0881,Ingeniería Informática,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,4.0
+ADM-0882,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-0883,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,1,0,2.8
+ADM-0884,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,4.0
+ADM-0885,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.2
+ADM-0886,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.3
+ADM-0887,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0888,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,0,1,0,0,3.5
+ADM-0889,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.3
+ADM-0890,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,1,0,0,0,3.1
+ADM-0891,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0892,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,0,1,0,0,3.6
+ADM-0893,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0894,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,3.2
+ADM-0895,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.1
+ADM-0896,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,1,0,2.9
+ADM-0897,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.4
+ADM-0898,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,1,0,2.1
+ADM-0899,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,4.0
+ADM-0900,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,2.8
+ADM-0901,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.1
+ADM-0902,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-0903,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,0,1,0,0,3.5
+ADM-0904,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.4
+ADM-0905,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0906,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.0
+ADM-0907,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-0908,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-0909,Ingeniería Informática,Ingeniería,Estrato 5,Oficial,1,0,0,0,0,0,
+ADM-0910,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.4
+ADM-0911,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.8
+ADM-0912,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,4.1
+ADM-0913,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,0,1,1,1,3.3
+ADM-0914,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0915,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,1,0,0,0,3.4
+ADM-0916,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.2
+ADM-0917,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-0918,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.6
+ADM-0919,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,0,1,1,1,1.7
+ADM-0920,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-0921,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.8
+ADM-0922,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,0,1,1,1,2.2
+ADM-0923,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,3.7
+ADM-0924,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-0925,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.9
+ADM-0926,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,0,1,1,1,3.4
+ADM-0927,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0928,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0929,Ingeniería Informática,Ingeniería,Estrato 1,Privado,1,1,1,0,0,0,3.8
+ADM-0930,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.1
+ADM-0931,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.7
+ADM-0932,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-0933,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,0,1,1,1,2.9
+ADM-0934,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.3
+ADM-0935,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,1,1,0,0,0,3.9
+ADM-0936,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.3
+ADM-0937,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0938,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.6
+ADM-0939,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,0,1,1,1,1.9
+ADM-0940,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.6
+ADM-0941,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,0,1,1,1,3.4
+ADM-0942,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-0943,Ingeniería Informática,Ingeniería,Estrato 5,Oficial,1,1,1,0,1,0,3.8
+ADM-0944,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.5
+ADM-0945,Ingeniería Informática,Ingeniería,Estrato 6,Oficial,1,1,0,1,1,1,2.7
+ADM-0946,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,1,0,3.9
+ADM-0947,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.1
+ADM-0948,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-0949,Ingeniería Informática,Ingeniería,Estrato 5,Oficial,1,1,1,0,0,0,3.0
+ADM-0950,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.8
+ADM-0951,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,2.5
+ADM-0952,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.9
+ADM-0953,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-0954,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,2.4
+ADM-0955,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.3
+ADM-0956,Ingeniería Informática,Ingeniería,Estrato 5,Oficial,1,0,0,0,0,0,
+ADM-0957,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,0,1,0,0,2.8
+ADM-0958,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.3
+ADM-0959,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,0,1,1,1,2.3
+ADM-0960,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.2
+ADM-0961,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,3.8
+ADM-0962,Ingeniería Informática,Ingeniería,Estrato 6,Privado,1,1,1,0,1,0,3.3
+ADM-0963,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.2
+ADM-0964,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,3.2
+ADM-0965,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,4.2
+ADM-0966,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,4.5
+ADM-0967,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,3.2
+ADM-0968,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,4.3
+ADM-0969,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,1,0,2.7
+ADM-0970,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,3.0
+ADM-0971,Ingeniería Informática,Ingeniería,Estrato 4,Privado,1,1,1,0,0,0,2.8
+ADM-0972,Ingeniería Informática,Ingeniería,Estrato 4,Oficial,1,1,1,0,0,0,4.4
+ADM-0973,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-0974,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,1,0,3.0
+ADM-0975,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,0,0,3.0
+ADM-0976,Ingeniería Informática,Ingeniería,Estrato 6,Oficial,1,0,0,0,0,0,
+ADM-0977,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0978,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,1,0,0,0,3.8
+ADM-0979,Ingeniería Informática,Ingeniería,Estrato 1,Oficial,1,1,0,1,1,1,3.0
+ADM-0980,Ingeniería Informática,Ingeniería,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-0981,Ingeniería Informática,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,3.2
+ADM-0982,Ingeniería Informática,Ingeniería,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-0983,Ingeniería Informática,Ingeniería,Estrato 3,Oficial,1,1,1,0,1,0,2.9
+ADM-0984,Ingeniería Informática,Ingeniería,Estrato 2,Privado,1,1,1,0,0,0,4.2
+ADM-0985,Ingeniería Informática,Ingeniería,Estrato 6,Oficial,1,1,1,0,0,0,3.8
+ADM-0986,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,0,1,1,1,3.4
+ADM-0987,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,2.8
+ADM-0988,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.3
+ADM-0989,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,1,0,2.9
+ADM-0990,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0991,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,1,0,3.0
+ADM-0992,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-0993,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,1,0,3.8
+ADM-0994,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,0,1,0,0,3.2
+ADM-0995,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.4
+ADM-0996,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.8
+ADM-0997,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,0,1,1,1,2.8
+ADM-0998,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,1,0,2.6
+ADM-0999,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.8
+ADM-1000,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.1
+ADM-1001,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-1002,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.3
+ADM-1003,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1004,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-1005,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,1,0,2.9
+ADM-1006,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1007,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.8
+ADM-1008,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.4
+ADM-1009,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.1
+ADM-1010,Psicología,Ciencias Sociales y Humanas,Estrato 6,Privado,1,1,1,0,0,0,
+ADM-1011,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,2.4
+ADM-1012,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,0,0,3.3
+ADM-1013,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,1,0,3.3
+ADM-1014,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1015,Psicología,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,1,0,0,0,3.4
+ADM-1016,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.4
+ADM-1017,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-1018,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.1
+ADM-1019,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.1
+ADM-1020,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.6
+ADM-1021,Psicología,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,1,0,0,0,3.2
+ADM-1022,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.2
+ADM-1023,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,3.1
+ADM-1024,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,0,1,0,0,4.0
+ADM-1025,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,
+ADM-1026,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,4.0
+ADM-1027,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.2
+ADM-1028,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-1029,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.7
+ADM-1030,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.4
+ADM-1031,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,1,0,3.3
+ADM-1032,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.6
+ADM-1033,Psicología,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,0,0,4.0
+ADM-1034,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,1,0,2.7
+ADM-1035,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.2
+ADM-1036,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1037,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.8
+ADM-1038,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.8
+ADM-1039,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.3
+ADM-1040,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.6
+ADM-1041,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1042,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-1043,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,2.6
+ADM-1044,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-1045,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,2.6
+ADM-1046,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-1047,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.0
+ADM-1048,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-1049,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.1
+ADM-1050,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,0,1,0,0,2.8
+ADM-1051,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,2.0
+ADM-1052,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,4.3
+ADM-1053,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.7
+ADM-1054,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.3
+ADM-1055,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-1056,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.0
+ADM-1057,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.3
+ADM-1058,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1059,Psicología,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,0,0,3.7
+ADM-1060,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,1,0,3.1
+ADM-1061,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1062,Psicología,Ciencias Sociales y Humanas,Estrato 5,Privado,1,0,0,0,0,0,
+ADM-1063,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.7
+ADM-1064,Psicología,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,1,0,2.3
+ADM-1065,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,4.4
+ADM-1066,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.9
+ADM-1067,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,0,0,3.4
+ADM-1068,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,1,0,3.2
+ADM-1069,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.7
+ADM-1070,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,0,1,1,1,3.6
+ADM-1071,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,1,0,2.9
+ADM-1072,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1073,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.2
+ADM-1074,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.0
+ADM-1075,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,2.4
+ADM-1076,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-1077,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1078,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,4.4
+ADM-1079,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1080,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,2.8
+ADM-1081,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.2
+ADM-1082,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,0,1,0,0,2.8
+ADM-1083,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.4
+ADM-1084,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.7
+ADM-1085,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,3.1
+ADM-1086,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.8
+ADM-1087,Psicología,Ciencias Sociales y Humanas,Estrato 6,Privado,1,1,1,0,0,0,3.0
+ADM-1088,Psicología,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,0,0,3.5
+ADM-1089,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,1,0,
+ADM-1090,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.3
+ADM-1091,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.3
+ADM-1092,Psicología,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,0,0,3.8
+ADM-1093,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.2
+ADM-1094,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.7
+ADM-1095,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,1,0,3.0
+ADM-1096,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.5
+ADM-1097,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.7
+ADM-1098,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.1
+ADM-1099,Psicología,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,0,0,3.7
+ADM-1100,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.8
+ADM-1101,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.1
+ADM-1102,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.5
+ADM-1103,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,2.6
+ADM-1104,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,4.3
+ADM-1105,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-1106,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.8
+ADM-1107,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.9
+ADM-1108,Psicología,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,1,0,0,0,3.4
+ADM-1109,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.7
+ADM-1110,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,0,1,1,1,2.9
+ADM-1111,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,0,0,3.8
+ADM-1112,Psicología,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,1,0,1,0,1.7
+ADM-1113,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.2
+ADM-1114,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1115,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,0,1,1,1,3.0
+ADM-1116,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,2.9
+ADM-1117,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.2
+ADM-1118,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,3.6
+ADM-1119,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,2.8
+ADM-1120,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.0
+ADM-1121,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-1122,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,4.4
+ADM-1123,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1124,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,0,0,3.6
+ADM-1125,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1126,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.8
+ADM-1127,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,4.1
+ADM-1128,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.4
+ADM-1129,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,3.1
+ADM-1130,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-1131,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,1,0,3.0
+ADM-1132,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1133,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,0,1,0,0,4.2
+ADM-1134,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.6
+ADM-1135,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,0,1,1,1,2.2
+ADM-1136,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1137,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,1,0,2.6
+ADM-1138,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.0
+ADM-1139,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,4.2
+ADM-1140,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-1141,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.7
+ADM-1142,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.6
+ADM-1143,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1144,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.3
+ADM-1145,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.5
+ADM-1146,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,4.5
+ADM-1147,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.9
+ADM-1148,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1149,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,0,1,1,1,2.6
+ADM-1150,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.4
+ADM-1151,Psicología,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,0,0,3.0
+ADM-1152,Psicología,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,0,0,3.6
+ADM-1153,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1154,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,4.0
+ADM-1155,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,0,1,1,1,2.2
+ADM-1156,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1157,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.8
+ADM-1158,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,0,1,1,1,2.8
+ADM-1159,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-1160,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.2
+ADM-1161,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-1162,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.3
+ADM-1163,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.4
+ADM-1164,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.5
+ADM-1165,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,2.9
+ADM-1166,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.3
+ADM-1167,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,2.9
+ADM-1168,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1169,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,4.2
+ADM-1170,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,0,1,1,1,2.2
+ADM-1171,Psicología,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,1,0,2.8
+ADM-1172,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-1173,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1174,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,1,0,2.9
+ADM-1175,Psicología,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,0,0,3.8
+ADM-1176,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.3
+ADM-1177,Psicología,Ciencias Sociales y Humanas,Estrato 6,Privado,1,1,1,0,0,0,3.3
+ADM-1178,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,0,1,1,1,2.6
+ADM-1179,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,1,0,2.7
+ADM-1180,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.8
+ADM-1181,Psicología,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,0,0,0,0,0,
+ADM-1182,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1183,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,4.2
+ADM-1184,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,1,0,3.1
+ADM-1185,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,1,0,2.4
+ADM-1186,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.9
+ADM-1187,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.4
+ADM-1188,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.1
+ADM-1189,Psicología,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,0,0,2.7
+ADM-1190,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.3
+ADM-1191,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1192,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.9
+ADM-1193,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.6
+ADM-1194,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-1195,Psicología,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,0,0,4.5
+ADM-1196,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.2
+ADM-1197,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1198,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1199,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,2.8
+ADM-1200,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.5
+ADM-1201,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.4
+ADM-1202,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.4
+ADM-1203,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-1204,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1205,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.2
+ADM-1206,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,0,0,3.1
+ADM-1207,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-1208,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,3.2
+ADM-1209,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1210,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.1
+ADM-1211,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,4.6
+ADM-1212,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,4.9
+ADM-1213,Psicología,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,0,1,1,1,1.6
+ADM-1214,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,1,0,2.5
+ADM-1215,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,1,0,2.4
+ADM-1216,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.1
+ADM-1217,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,0,1,1,1,2.4
+ADM-1218,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,0,1,1,1,
+ADM-1219,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-1220,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,3.2
+ADM-1221,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.7
+ADM-1222,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,0,1,1,1,2.0
+ADM-1223,Psicología,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,1,0,0,0,3.0
+ADM-1224,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-1225,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.2
+ADM-1226,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1227,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.7
+ADM-1228,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,
+ADM-1229,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1230,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,0,1,0,0,2.8
+ADM-1231,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.3
+ADM-1232,Psicología,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,0,0,2.7
+ADM-1233,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,4.0
+ADM-1234,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1235,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.6
+ADM-1236,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.3
+ADM-1237,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,2.8
+ADM-1238,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.8
+ADM-1239,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1240,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-1241,Psicología,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,0,0,3.5
+ADM-1242,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1243,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.7
+ADM-1244,Psicología,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,1,0,3.3
+ADM-1245,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.4
+ADM-1246,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.0
+ADM-1247,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,4.2
+ADM-1248,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,0,1,0,0,3.1
+ADM-1249,Psicología,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,0,0,3.4
+ADM-1250,Psicología,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.7
+ADM-1251,Psicología,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,0,0,3.8
+ADM-1252,Psicología,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,0,1,1,1,2.6
+ADM-1253,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,0,1,1,1,1.9
+ADM-1254,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.2
+ADM-1255,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,1,0,2.9
+ADM-1256,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,4.5
+ADM-1257,Psicología,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1258,Psicología,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.3
+ADM-1259,Psicología,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,0,0,3.8
+ADM-1260,Psicología,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1261,Psicología,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,1,0,1,0,2.6
+ADM-1262,Psicología,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,2.4
+ADM-1263,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.7
+ADM-1264,Trabajo Social,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,0,0,3.6
+ADM-1265,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,0,1,1,1,2.1
+ADM-1266,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,0,1,0,0,3.1
+ADM-1267,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,0,1,1,1,2.7
+ADM-1268,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,1,0,2.9
+ADM-1269,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,5.0
+ADM-1270,Trabajo Social,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,0,0,0,0,0,
+ADM-1271,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,0,1,0,0,3.5
+ADM-1272,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.0
+ADM-1273,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1274,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,0,1,1,1,
+ADM-1275,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1276,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.5
+ADM-1277,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,1,0,2.9
+ADM-1278,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1279,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,0,1,1,1,2.6
+ADM-1280,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,4.1
+ADM-1281,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1282,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,1,0,3.3
+ADM-1283,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1284,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.1
+ADM-1285,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,4.0
+ADM-1286,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.6
+ADM-1287,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,2.6
+ADM-1288,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.4
+ADM-1289,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,0,1,1,1,2.2
+ADM-1290,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.2
+ADM-1291,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,1,0,2.8
+ADM-1292,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.9
+ADM-1293,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-1294,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,4.1
+ADM-1295,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.6
+ADM-1296,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1297,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,0,1,1,1,2.6
+ADM-1298,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,4.3
+ADM-1299,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.4
+ADM-1300,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-1301,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,0,1,1,1,3.2
+ADM-1302,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,4.1
+ADM-1303,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,2.9
+ADM-1304,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.9
+ADM-1305,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.9
+ADM-1306,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-1307,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,4.4
+ADM-1308,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,4.1
+ADM-1309,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1310,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,2.9
+ADM-1311,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,4.0
+ADM-1312,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.6
+ADM-1313,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,0,1,1,1,2.8
+ADM-1314,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.0
+ADM-1315,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-1316,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.7
+ADM-1317,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-1318,Trabajo Social,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,1,0,0,0,4.2
+ADM-1319,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.1
+ADM-1320,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,4.2
+ADM-1321,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-1322,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,1,0,2.5
+ADM-1323,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,0,1,1,1,2.8
+ADM-1324,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,0,1,1,1,3.1
+ADM-1325,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.1
+ADM-1326,Trabajo Social,Ciencias Sociales y Humanas,Estrato 6,Privado,1,1,1,0,0,0,3.1
+ADM-1327,Trabajo Social,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,1,0,1,0,3.0
+ADM-1328,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,
+ADM-1329,Trabajo Social,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,0,0,0,0,0,
+ADM-1330,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,0,0,0,0,0,
+ADM-1331,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.7
+ADM-1332,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.2
+ADM-1333,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,4.2
+ADM-1334,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.7
+ADM-1335,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.8
+ADM-1336,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.0
+ADM-1337,Trabajo Social,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,0,0,3.1
+ADM-1338,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.9
+ADM-1339,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.1
+ADM-1340,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.6
+ADM-1341,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,2.8
+ADM-1342,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.8
+ADM-1343,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,0,0,3.4
+ADM-1344,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-1345,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,0,0,3.5
+ADM-1346,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1347,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1348,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,4.3
+ADM-1349,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,2.6
+ADM-1350,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,4.2
+ADM-1351,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.0
+ADM-1352,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,5.0
+ADM-1353,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.8
+ADM-1354,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,3.1
+ADM-1355,Trabajo Social,Ciencias Sociales y Humanas,Estrato 6,Privado,1,1,1,0,0,0,3.9
+ADM-1356,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,2.9
+ADM-1357,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.0
+ADM-1358,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,1,0,2.1
+ADM-1359,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,4.2
+ADM-1360,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-1361,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,2.8
+ADM-1362,Trabajo Social,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,1,0,0,0,3.2
+ADM-1363,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,0,1,1,1,2.6
+ADM-1364,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.8
+ADM-1365,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,0,1,1,1,2.6
+ADM-1366,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1367,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,0,1,1,1,2.4
+ADM-1368,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.6
+ADM-1369,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.4
+ADM-1370,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.1
+ADM-1371,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1372,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1373,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.3
+ADM-1374,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.2
+ADM-1375,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,0,1,0,0,3.0
+ADM-1376,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.5
+ADM-1377,Trabajo Social,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,1,0,2.6
+ADM-1378,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.0
+ADM-1379,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,0,1,0,0,2.9
+ADM-1380,Trabajo Social,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,0,0,4.0
+ADM-1381,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.4
+ADM-1382,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,0,1,1,1,2.0
+ADM-1383,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.2
+ADM-1384,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.6
+ADM-1385,Trabajo Social,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,1,0,2.5
+ADM-1386,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,0,0,0,0,0,
+ADM-1387,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,4.2
+ADM-1388,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1389,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.9
+ADM-1390,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,
+ADM-1391,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,0,0,3.6
+ADM-1392,Trabajo Social,Ciencias Sociales y Humanas,Estrato 6,Oficial,1,1,1,0,0,0,4.0
+ADM-1393,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.9
+ADM-1394,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.4
+ADM-1395,Trabajo Social,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,1,0,1,0,2.3
+ADM-1396,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1397,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1398,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,4.5
+ADM-1399,Trabajo Social,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,1,0,3.2
+ADM-1400,Trabajo Social,Ciencias Sociales y Humanas,Estrato 5,Privado,1,1,1,0,0,0,4.0
+ADM-1401,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,0,0,3.5
+ADM-1402,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1403,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,2.7
+ADM-1404,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.5
+ADM-1405,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1406,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1407,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,0,0,0,0,0,
+ADM-1408,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,0,0,3.5
+ADM-1409,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.8
+ADM-1410,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,1,0,2.6
+ADM-1411,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,1,1,0,1,0,2.5
+ADM-1412,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1413,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Privado,1,1,1,0,1,0,3.0
+ADM-1414,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1415,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,2.6
+ADM-1416,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1417,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.9
+ADM-1418,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.3
+ADM-1419,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,0,1,1,1,2.5
+ADM-1420,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,3.4
+ADM-1421,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,1,0,2.7
+ADM-1422,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,2.9
+ADM-1423,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,4.4
+ADM-1424,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.5
+ADM-1425,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Privado,1,1,1,0,0,0,3.5
+ADM-1426,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.9
+ADM-1427,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Privado,1,0,0,0,0,0,
+ADM-1428,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.3
+ADM-1429,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.8
+ADM-1430,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,4.2
+ADM-1431,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,3.1
+ADM-1432,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.8
+ADM-1433,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.3
+ADM-1434,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,1,0,3.5
+ADM-1435,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.3
+ADM-1436,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.1
+ADM-1437,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,0,0,0,0,0,
+ADM-1438,Trabajo Social,Ciencias Sociales y Humanas,Estrato 5,Oficial,1,1,1,0,1,0,1.8
+ADM-1439,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,0,1,1,1,2.7
+ADM-1440,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,1,0,3.1
+ADM-1441,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Oficial,1,1,1,0,0,0,3.4
+ADM-1442,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,1,0,0,0,3.5
+ADM-1443,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,0,0,0,0,0,
+ADM-1444,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,0,1,1,1,2.1
+ADM-1445,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Oficial,1,1,1,0,0,0,4.0
+ADM-1446,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,1,1,0,1,0,3.1
+ADM-1447,Trabajo Social,Ciencias Sociales y Humanas,Estrato 1,Oficial,1,0,0,0,0,0,
+ADM-1448,Trabajo Social,Ciencias Sociales y Humanas,Estrato 2,Privado,1,1,0,1,1,1,2.3
+ADM-1449,Trabajo Social,Ciencias Sociales y Humanas,Estrato 3,Privado,1,0,0,0,0,0,
+ADM-1450,Trabajo Social,Ciencias Sociales y Humanas,Estrato 4,Oficial,1,1,1,0,0,0,3.9
