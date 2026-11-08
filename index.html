@@ -96,7 +96,7 @@ footer{text-align:center;color:var(--suave);font-size:13px;padding:0 16px 40px}
 
 <nav><div class="wrap">
   <a href="#reto1">1 · ETL</a><a href="#reto2">2 · Modelo dimensional</a>
-  <a href="#reto3">3 · Arquitectura</a><a href="#reto4">4 · Tablero</a><a href="#referencias">Referencias</a>
+  <a href="#reto3">3 · Arquitectura</a><a href="#reto4">4 · Tablero</a><a href="#reto5">5 · Alerta</a><a href="#reto6">6 · Prospectiva</a><a href="#referencias">Referencias</a>
 </div></nav>
 
 <main class="wrap">
@@ -256,6 +256,114 @@ footer{text-align:center;color:var(--suave);font-size:13px;padding:0 16px 40px}
   </div>
 </section>
 
+
+<!-- ============================== RETO 5 ============================== -->
+<section id="reto5">
+  <div class="cab"><span class="n">Reto 5</span><h2>Mejora de la alerta temprana</h2></div>
+  <div class="cuerpo">
+    <div class="aprueba"><strong>Se aprueba si:</strong> la regla alerta a 120 estudiantes o menos y su cobertura es de al menos 35 %.
+      → Resultado: <strong>109 alertados</strong> y <strong>cobertura 38,9 %</strong>.</div>
+
+    <h3>El problema</h3>
+    <p>La regla actual alerta a <strong>371 estudiantes</strong> (31 % de la cohorte), pero Bienestar solo tiene capacidad para atender a
+      <strong>120</strong>. Además, 2 de cada 3 alertas son falsas alarmas (precisión 32,6 %).</p>
+
+    <h3>La regla nueva (solo datos de Moodle, semanas 1 a 8)</h3>
+    <p style="font-size:17px;border-left:4px solid var(--verde);padding:6px 14px;background:#F7FAF8;border-radius:6px">
+      Se alerta a un estudiante si <strong>suma 5 accesos o menos entre las semanas 6, 7 y 8</strong>, <strong>o</strong> si su
+      <strong>promedio semanal de accesos en las semanas 6–8 cae por debajo del 40 %</strong> de su promedio de las semanas 1–5.</p>
+    <p>La idea: el abandono se anuncia con la <strong>desconexión</strong>. En lugar de mirar la nota (que también baja en muchos
+      estudiantes que sí continúan), la regla busca a quien deja de entrar a la plataforma o cae de golpe frente a su propio ritmo.
+      Se puede calcular al cerrar la semana 8, a mitad del semestre, con tiempo para intervenir.</p>
+
+    <div class="grid2">
+      <div>
+        <h3>Matriz de confusión · regla nueva</h3>
+        <div class="tw"><table style="min-width:0">
+          <thead><tr><th></th><th class=num>Desertó</th><th class=num>No desertó</th><th class=num>Total</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Alertó</strong></td><td class=num><strong>68</strong></td><td class=num>41</td><td class=num><strong>109</strong></td></tr>
+            <tr><td><strong>No alertó</strong></td><td class=num>107</td><td class=num>984</td><td class=num>1.091</td></tr>
+            <tr class=tot><td>Total</td><td class=num>175</td><td class=num>1.025</td><td class=num>1.200</td></tr>
+          </tbody></table></div>
+      </div>
+      <div>
+        <h3>Matriz de confusión · regla actual</h3>
+        <div class="tw"><table style="min-width:0">
+          <thead><tr><th></th><th class=num>Desertó</th><th class=num>No desertó</th><th class=num>Total</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Alertó</strong></td><td class=num><strong>121</strong></td><td class=num>250</td><td class=num><strong>371</strong></td></tr>
+            <tr><td><strong>No alertó</strong></td><td class=num>54</td><td class=num>775</td><td class=num>829</td></tr>
+            <tr class=tot><td>Total</td><td class=num>175</td><td class=num>1.025</td><td class=num>1.200</td></tr>
+          </tbody></table></div>
+      </div>
+    </div>
+
+    <div class="semaforo">
+      <div class="sm v"><span>Alertados (capacidad 120)</span><b>109</b><span><i class="dot v"></i>antes 371</span></div>
+      <div class="sm v"><span>Precisión = 68 ÷ 109</span><b>62,4 %</b><span><i class="dot v"></i>antes 32,6 %</span></div>
+      <div class="sm v"><span>Cobertura = 68 ÷ 175 (mín. 35 %)</span><b>38,9 %</b><span><i class="dot v"></i>Cumple</span></div>
+    </div>
+
+    <h3>Lectura</h3>
+    <p>La regla nueva reduce las alertas de 371 a 109, <strong>cabe en la capacidad de los consejeros</strong> y deja 11 cupos libres.
+      La precisión casi se duplica: ahora 6 de cada 10 alertados son estudiantes que efectivamente desertaron. El costo es la
+      cobertura (de 69,1 % a 38,9 %): con solo 120 cupos no es posible atender a todos los desertores, así que se prioriza a los
+      que muestran la señal más fuerte. Probamos otras combinaciones de umbrales (accesos, caída relativa y nota parcial)
+      y ninguna supera el 41 % de cobertura sin pasar de 120 alertados.</p>
+    <p class="nota">Nota: el tablero del Reto 4 reporta 370 alertados con la regla actual; aquí son 371 porque este cálculo separa la actividad
+      de Moodle de los dos correos institucionales compartidos por homónimos (regla 15), asignando a cada estudiante su bloque de 16 semanas.</p>
+
+    <h3>Distribución de las alertas nuevas</h3>
+    <div class="tw"><table>
+      <thead><tr><th>Programa</th><th class=num>Cohorte</th><th class=num>Alertados</th><th class=num>Desertores</th><th class=num>% alertado</th></tr></thead>
+      <tbody>
+        <tr><td>Administración de Empresas</td><td class=num>254</td><td class=num>21</td><td class=num>46</td><td class=num>8,3 %</td></tr>
+        <tr><td>Contaduría Pública</td><td class=num>154</td><td class=num>18</td><td class=num>22</td><td class=num>11,7 %</td></tr>
+        <tr><td>Ingeniería Industrial</td><td class=num>176</td><td class=num>22</td><td class=num>22</td><td class=num>12,5 %</td></tr>
+        <tr><td>Ingeniería Informática</td><td class=num>236</td><td class=num>18</td><td class=num>39</td><td class=num>7,6 %</td></tr>
+        <tr><td>Psicología</td><td class=num>228</td><td class=num>17</td><td class=num>24</td><td class=num>7,5 %</td></tr>
+        <tr><td>Trabajo Social</td><td class=num>152</td><td class=num>13</td><td class=num>22</td><td class=num>8,6 %</td></tr>
+        <tr class=tot><td>Total</td><td class=num>1.200</td><td class=num>109</td><td class=num>175</td><td class=num>9,1 %</td></tr>
+      </tbody></table></div>
+    <a class="btn sec" href="datos/reto5_regla_alertas.py" download>⬇ Script reproducible (Python) · reto5_regla_alertas.py</a>
+  </div>
+</section>
+
+<!-- ============================== RETO 6 ============================== -->
+<section id="reto6">
+  <div class="cab"><span class="n">Reto 6</span><h2>Prospectiva tecnológica</h2></div>
+  <div class="cuerpo">
+    <div class="aprueba"><strong>Se aprueba si:</strong> cada tecnología está ligada a un problema real y a un indicador del tablero.</div>
+
+    <div class="tw"><table>
+      <thead><tr><th>Tecnología</th><th>Problema real del caso</th><th>Indicador del tablero que mejora</th><th>Riesgo</th><th>Mitigación</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>1. Modelo predictivo de deserción</strong><br><span class="nota">BigQuery ML (regresión logística) que ordena a la cohorte por probabilidad de desertar</span></td>
+          <td>Con reglas fijas la alerta acierta poco: la regla actual tiene <strong>precisión 32,7 %</strong> y la del Reto 5 deja fuera al 61 % de los desertores. Un puntaje de riesgo permite elegir a los 120 estudiantes con mayor probabilidad combinando Moodle, notas, pagos y Bienestar.</td>
+          <td><strong>Precisión</strong> y <strong>cobertura de la alerta</strong> (meta: precisión ≥ 50 % y cobertura ≥ 50 % con 120 cupos).</td>
+          <td>Sesgo: el modelo podría marcar más a estudiantes de estrato 1 por su condición y no por su comportamiento; decisiones opacas.</td>
+          <td>Entrenar sin estrato como variable y auditar en el tablero la precisión por estrato; mostrar las variables que explican cada alerta; el consejero decide, el modelo solo prioriza; reentrenar cada semestre.</td>
+        </tr>
+        <tr>
+          <td><strong>2. Ingesta en streaming de Moodle</strong><br><span class="nota">Pub/Sub + Dataflow con eventos de acceso cada minuto</span></td>
+          <td>Hoy Moodle llega en un CSV al cierre del periodo, así que la alerta (semanas 7–8) se conoce tarde. El 100 % de la regla del Reto 5 depende de los accesos: si se ven en vivo, la desconexión se detecta desde la semana 6.</td>
+          <td><strong>Retención</strong> (meta ≥ 85 %; hoy 85,4 % global pero 78,0 % en estrato 1) y <strong>cobertura</strong>, al intervenir antes.</td>
+          <td>Costo y complejidad de operar flujos continuos; falsas alarmas por caídas de la plataforma o festivos.</td>
+          <td>Procesar en micro-lotes cada 15 minutos; piloto con un programa (Administración, deserción 18,1 %); excluir de la regla las semanas con caída general de accesos.</td>
+        </tr>
+        <tr>
+          <td><strong>3. Gestión de datos maestros y calidad automática</strong><br><span class="nota">Dataplex: llave única de estudiante + reglas de calidad que bloquean cargas</span></td>
+          <td>Los datos llegan con defectos que cambian los resultados: 29 documentos con puntos de miles hacían ver a 29 retenidos como desertores (la retención pasó de 83,0 % a 85,4 % al corregirlo), hay correos compartidos por homónimos y Bienestar solo se cruza por nombre.</td>
+          <td><strong>Retención / deserción por programa</strong> y <strong>absorción</strong>: que el valor publicado sea confiable.</td>
+          <td>Resistencia de las áreas dueñas de cada sistema; una regla de calidad muy estricta puede detener la actualización del tablero.</td>
+          <td>Comité de gobierno de datos con un responsable por fuente; empezar por la llave <code>documento</code>; las reglas críticas bloquean y las demás solo avisan en el tablero.</td>
+        </tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
 
 <!-- ============================== REFERENCIAS ============================== -->
 <section id="referencias">
